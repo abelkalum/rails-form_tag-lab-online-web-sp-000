@@ -22,8 +22,8 @@ describe 'form page' do
     visit new_student_path
     expect(page).to have_content("Student Form")
   end
-
-  it 'ensures that the new form submits content and renders form content' do
+'ensures that the new form submits content and renders form content' do
+  it 
     visit new_student_path
 
     fill_in 'student[first_name]', with: "Margaery"
